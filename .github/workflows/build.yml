@@ -17,6 +17,9 @@ jobs:
       - name: Select Xcode
         run: sudo xcode-select -switch /Applications/Xcode.app
 
+      - name: Find Xcode Project        # 👈 ADD THIS FIRST
+        run: find . -name "*.xcodeproj" -maxdepth 4
+
       - name: List Schemes
         run: xcodebuild -project SHIELD-AI.xcodeproj -list
 
