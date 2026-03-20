@@ -1,4 +1,4 @@
-import Foundation
+import SwiftUI
 
 // MARK: - Rogue Tower
 
@@ -40,12 +40,12 @@ enum ThreatLevel: String, CaseIterable {
     case high     = "High"
     case critical = "Critical"
 
-    var color: String {
+    var color: Color {
         switch self {
-        case .low:      return "green"
-        case .medium:   return "yellow"
-        case .high:     return "orange"
-        case .critical: return "red"
+        case .low:      return .green
+        case .medium:   return .yellow
+        case .high:     return .orange
+        case .critical: return .red
         }
     }
 }
