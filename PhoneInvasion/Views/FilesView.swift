@@ -9,7 +9,7 @@ struct FilesView: View {
     }
 
     var body: some View {
-        NavigationView {
+        NavigationStack {
             List {
                 if displayedFiles.isEmpty {
                     Text(showQuarantinedOnly ? "No quarantined files." : "No files found.")
