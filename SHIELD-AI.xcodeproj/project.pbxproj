@@ -23,7 +23,6 @@
 		AA000014000000000000001A /* AIReportView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA000014000000000000001B /* AIReportView.swift */; };
 		AA000015000000000000001A /* Color+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA000015000000000000001B /* Color+Extensions.swift */; };
 		AA000016000000000000001A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA000016000000000000001B /* Assets.xcassets */; };
-		AA000017000000000000001A /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = AA000017000000000000001B /* Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -157,7 +156,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				AA000016000000000000001A /* Assets.xcassets in Resources */,
-				AA000017000000000000001A /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
