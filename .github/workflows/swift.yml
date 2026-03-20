@@ -1,12 +1,29 @@
-- name: List Schemes
-  run: xcodebuild -project SHIELD-AI.xcodeproj -list
+name: Swift Build Check
 
-- name: Build
-  run: |
-    xcodebuild \
-      -project SHIELD-AI.xcodeproj \
-      -scheme SHIELD-AI \
-      -sdk iphonesimulator \
-      -destination 'platform=iOS Simulator,name=iPhone 15,OS=latest' \
-      build \
-      CODE_SIGNING_ALLOWED=NO
+on:
+  push:
+    branches: [main, immahugeduck-patch-ios]
+  pull_request:
+    branches: [main]
+
+jobs:
+  build:
+    runs-on: macos-latest
+    permissions:
+      contents: read
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4
+
+      - name: Select Xcode
+        run: sudo xcode-select -switch /Applications/Xcode_16.4.app
+
+      - name: Build
+        run: |
+          xcodebuild \
+            -project SHIELD-AI.xcodeproj \
+            -scheme SHIELD-AI \
+            -sdk iphonesimulator \
+            -destination 'platform=iOS Simulator,name=iPhone 16,OS=latest' \
+            build \
+            CODE_SIGNING_ALLOWED=NO
