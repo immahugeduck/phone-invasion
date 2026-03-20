@@ -1,4 +1,4 @@
-name: Swift Build Check
+name: iOS Build Check
 
 on:
   push:
@@ -12,7 +12,7 @@ jobs:
     permissions:
       contents: read
     steps:
-      - name: Checkout Code
+      - name: Checkout code
         uses: actions/checkout@v4
 
       - name: Select Xcode
@@ -21,7 +21,7 @@ jobs:
       - name: Build
         run: |
           xcodebuild \
-            -project SHIELD-AI.xcodeproj \
+            -project ios/SHIELD-AI.xcodeproj \
             -scheme SHIELD-AI \
             -sdk iphonesimulator \
             -destination 'platform=iOS Simulator,name=iPhone 16,OS=latest' \
