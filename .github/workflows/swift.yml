@@ -1,3 +1,6 @@
+- name: List Schemes
+  run: xcodebuild -project SHIELD-AI.xcodeproj -list
+
 - name: Build
   run: |
     xcodebuild \
