@@ -7,7 +7,7 @@ struct PrivacyView: View {
     @State private var exposureScoring = ExposureScoring()
 
     var body: some View {
-        NavigationView {
+        NavigationStack {
             Form {
                 Section(header: Text("Privacy Controls")) {
                     ForEach(PrivacyKillSwitches.availableSwitches, id: \.key) { item in
