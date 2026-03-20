@@ -7,45 +7,48 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		AA000000000000000000200 /* ShieldAIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA000000000000000000100 /* ShieldAIApp.swift */; };
-		AA000000000000000000201 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA000000000000000000101 /* ContentView.swift */; };
-		AA000000000000000000202 /* ScanView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA000000000000000000102 /* ScanView.swift */; };
-		AA000000000000000000203 /* ScanViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA000000000000000000103 /* ScanViewModel.swift */; };
-		AA000000000000000000204 /* TrackersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA000000000000000000104 /* TrackersView.swift */; };
-		AA000000000000000000205 /* FilesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA000000000000000000105 /* FilesView.swift */; };
-		AA000000000000000000206 /* NetworkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA000000000000000000106 /* NetworkView.swift */; };
-		AA000000000000000000207 /* NetworkViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA000000000000000000107 /* NetworkViewModel.swift */; };
-		AA000000000000000000208 /* PrivacyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA000000000000000000108 /* PrivacyView.swift */; };
-		AA000000000000000000209 /* PrivacyViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA000000000000000000109 /* PrivacyViewModel.swift */; };
-		AA000000000000000000210 /* RFShieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA000000000000000000110 /* RFShieldView.swift */; };
-		AA000000000000000000211 /* RogueTowerModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA000000000000000000111 /* RogueTowerModels.swift */; };
-		AA000000000000000000212 /* ThreatModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA000000000000000000112 /* ThreatModels.swift */; };
-		AA000000000000000000213 /* AIReportView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA000000000000000000113 /* AIReportView.swift */; };
-		AA000000000000000000214 /* Color+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA000000000000000000114 /* Color+Extensions.swift */; };
+		AA000001000000000000001A /* ShieldAIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA000001000000000000001B /* ShieldAIApp.swift */; };
+		AA000002000000000000001A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA000002000000000000001B /* ContentView.swift */; };
+		AA000003000000000000001A /* ScanView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA000003000000000000001B /* ScanView.swift */; };
+		AA000004000000000000001A /* ScanViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA000004000000000000001B /* ScanViewModel.swift */; };
+		AA000005000000000000001A /* NetworkView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA000005000000000000001B /* NetworkView.swift */; };
+		AA000006000000000000001A /* NetworkViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA000006000000000000001B /* NetworkViewModel.swift */; };
+		AA000007000000000000001A /* PrivacyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA000007000000000000001B /* PrivacyView.swift */; };
+		AA000008000000000000001A /* PrivacyViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA000008000000000000001B /* PrivacyViewModel.swift */; };
+		AA000009000000000000001A /* RFShieldView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA000009000000000000001B /* RFShieldView.swift */; };
+		AA000010000000000000001A /* RogueTowerModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA000010000000000000001B /* RogueTowerModels.swift */; };
+		AA000011000000000000001A /* ThreatModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA000011000000000000001B /* ThreatModels.swift */; };
+		AA000012000000000000001A /* TrackersView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA000012000000000000001B /* TrackersView.swift */; };
+		AA000013000000000000001A /* FilesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA000013000000000000001B /* FilesView.swift */; };
+		AA000014000000000000001A /* AIReportView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA000014000000000000001B /* AIReportView.swift */; };
+		AA000015000000000000001A /* Color+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA000015000000000000001B /* Color+Extensions.swift */; };
+		AA000016000000000000001A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA000016000000000000001B /* Assets.xcassets */; };
+		AA000017000000000000001A /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = AA000017000000000000001B /* Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		AA000000000000000000100 /* ShieldAIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ShieldAIApp.swift; path = ../ShieldAIApp.swift; sourceTree = "<group>"; };
-		AA000000000000000000101 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ContentView.swift; path = ../ContentView.swift; sourceTree = "<group>"; };
-		AA000000000000000000102 /* ScanView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ScanView.swift; path = ../ScanView.swift; sourceTree = "<group>"; };
-		AA000000000000000000103 /* ScanViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ScanViewModel.swift; path = ../ScanViewModel.swift; sourceTree = "<group>"; };
-		AA000000000000000000104 /* TrackersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = TrackersView.swift; path = ../TrackersView.swift; sourceTree = "<group>"; };
-		AA000000000000000000105 /* FilesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = FilesView.swift; path = ../FilesView.swift; sourceTree = "<group>"; };
-		AA000000000000000000106 /* NetworkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = NetworkView.swift; path = ../NetworkView.swift; sourceTree = "<group>"; };
-		AA000000000000000000107 /* NetworkViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = NetworkViewModel.swift; path = ../NetworkViewModel.swift; sourceTree = "<group>"; };
-		AA000000000000000000108 /* PrivacyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = PrivacyView.swift; path = ../PrivacyView.swift; sourceTree = "<group>"; };
-		AA000000000000000000109 /* PrivacyViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = PrivacyViewModel.swift; path = ../PrivacyViewModel.swift; sourceTree = "<group>"; };
-		AA000000000000000000110 /* RFShieldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = RFShieldView.swift; path = ../RFShieldView.swift; sourceTree = "<group>"; };
-		AA000000000000000000111 /* RogueTowerModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = RogueTowerModels.swift; path = ../RogueTowerModels.swift; sourceTree = "<group>"; };
-		AA000000000000000000112 /* ThreatModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ThreatModels.swift; path = ../ThreatModels.swift; sourceTree = "<group>"; };
-		AA000000000000000000113 /* AIReportView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AIReportView.swift; path = ../AIReportView.swift; sourceTree = "<group>"; };
-		AA000000000000000000114 /* Color+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Color+Extensions.swift; path = ../Color+Extensions.swift; sourceTree = "<group>"; };
-		AA000000000000000000115 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = ../Info.plist; sourceTree = "<group>"; };
-		AA000000000000000000120 /* SHIELD-AI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SHIELD-AI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AA000001000000000000001B /* ShieldAIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShieldAIApp.swift; sourceTree = "<group>"; };
+		AA000002000000000000001B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		AA000003000000000000001B /* ScanView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanView.swift; sourceTree = "<group>"; };
+		AA000004000000000000001B /* ScanViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanViewModel.swift; sourceTree = "<group>"; };
+		AA000005000000000000001B /* NetworkView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkView.swift; sourceTree = "<group>"; };
+		AA000006000000000000001B /* NetworkViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkViewModel.swift; sourceTree = "<group>"; };
+		AA000007000000000000001B /* PrivacyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrivacyView.swift; sourceTree = "<group>"; };
+		AA000008000000000000001B /* PrivacyViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrivacyViewModel.swift; sourceTree = "<group>"; };
+		AA000009000000000000001B /* RFShieldView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RFShieldView.swift; sourceTree = "<group>"; };
+		AA000010000000000000001B /* RogueTowerModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RogueTowerModels.swift; sourceTree = "<group>"; };
+		AA000011000000000000001B /* ThreatModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreatModels.swift; sourceTree = "<group>"; };
+		AA000012000000000000001B /* TrackersView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackersView.swift; sourceTree = "<group>"; };
+		AA000013000000000000001B /* FilesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilesView.swift; sourceTree = "<group>"; };
+		AA000014000000000000001B /* AIReportView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AIReportView.swift; sourceTree = "<group>"; };
+		AA000015000000000000001B /* Color+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Extensions.swift"; sourceTree = "<group>"; };
+		AA000016000000000000001B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AA000017000000000000001B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AAPROD0000000000000000AB /* SHIELD-AI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "SHIELD-AI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		AA000000000000000000031 /* Frameworks */ = {
+		AAPHASE000000000000000FB /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -55,48 +58,56 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		AA000000000000000000002 /* SHIELD-AI */ = {
+		AAGROUP0000000000000000AB /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				AA000000000000000000100 /* ShieldAIApp.swift */,
-				AA000000000000000000101 /* ContentView.swift */,
-				AA000000000000000000102 /* ScanView.swift */,
-				AA000000000000000000103 /* ScanViewModel.swift */,
-				AA000000000000000000104 /* TrackersView.swift */,
-				AA000000000000000000105 /* FilesView.swift */,
-				AA000000000000000000106 /* NetworkView.swift */,
-				AA000000000000000000107 /* NetworkViewModel.swift */,
-				AA000000000000000000108 /* PrivacyView.swift */,
-				AA000000000000000000109 /* PrivacyViewModel.swift */,
-				AA000000000000000000110 /* RFShieldView.swift */,
-				AA000000000000000000111 /* RogueTowerModels.swift */,
-				AA000000000000000000112 /* ThreatModels.swift */,
-				AA000000000000000000113 /* AIReportView.swift */,
-				AA000000000000000000114 /* Color+Extensions.swift */,
-				AA000000000000000000115 /* Info.plist */,
-				AA000000000000000000003 /* Products */,
-			);
-			name = "SHIELD-AI";
-			sourceTree = "<group>";
-		};
-		AA000000000000000000003 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				AA000000000000000000120 /* SHIELD-AI.app */,
+				AAPROD0000000000000000AB /* SHIELD-AI.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		AAGROUP0000000000000001AB /* SHIELD-AI */ = {
+			isa = PBXGroup;
+			children = (
+				AA000001000000000000001B /* ShieldAIApp.swift */,
+				AA000002000000000000001B /* ContentView.swift */,
+				AA000003000000000000001B /* ScanView.swift */,
+				AA000004000000000000001B /* ScanViewModel.swift */,
+				AA000005000000000000001B /* NetworkView.swift */,
+				AA000006000000000000001B /* NetworkViewModel.swift */,
+				AA000007000000000000001B /* PrivacyView.swift */,
+				AA000008000000000000001B /* PrivacyViewModel.swift */,
+				AA000009000000000000001B /* RFShieldView.swift */,
+				AA000010000000000000001B /* RogueTowerModels.swift */,
+				AA000011000000000000001B /* ThreatModels.swift */,
+				AA000012000000000000001B /* TrackersView.swift */,
+				AA000013000000000000001B /* FilesView.swift */,
+				AA000014000000000000001B /* AIReportView.swift */,
+				AA000015000000000000001B /* Color+Extensions.swift */,
+				AA000016000000000000001B /* Assets.xcassets */,
+				AA000017000000000000001B /* Info.plist */,
+			);
+			path = "";
+			sourceTree = "<group>";
+		};
+		AAROOTGROUP000000000000AB /* root */ = {
+			isa = PBXGroup;
+			children = (
+				AAGROUP0000000000000001AB /* SHIELD-AI */,
+				AAGROUP0000000000000000AB /* Products */,
+			);
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		AA000000000000000000010 /* SHIELD-AI */ = {
+		AATARGET000000000000000AB /* SHIELD-AI */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = AA000000000000000000024 /* Build configuration list for PBXNativeTarget "SHIELD-AI" */;
+			buildConfigurationList = AABLDCFGLIST00000000000AB /* Build configuration list for PBXNativeTarget "SHIELD-AI" */;
 			buildPhases = (
-				AA000000000000000000030 /* Sources */,
-				AA000000000000000000031 /* Frameworks */,
-				AA000000000000000000032 /* Resources */,
+				AAPHASE000000000000000SB /* Sources */,
+				AAPHASE000000000000000FB /* Frameworks */,
+				AAPHASE000000000000000RB /* Resources */,
 			);
 			buildRules = (
 			);
@@ -104,25 +115,25 @@
 			);
 			name = "SHIELD-AI";
 			productName = "SHIELD-AI";
-			productReference = AA000000000000000000120 /* SHIELD-AI.app */;
+			productReference = AAPROD0000000000000000AB /* SHIELD-AI.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		AA000000000000000000001 /* Project object */ = {
+		AAPROJECT000000000000000B /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
-				LastSwiftUpdateCheck = 1530;
-				LastUpgradeCheck = 1530;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
 				TargetAttributes = {
-					AA000000000000000000010 = {
-						CreatedOnToolsVersion = 15.3;
+					AATARGET000000000000000AB = {
+						CreatedOnToolsVersion = 16.0;
 					};
 				};
 			};
-			buildConfigurationList = AA000000000000000000025 /* Build configuration list for PBXProject "SHIELD-AI" */;
+			buildConfigurationList = AABLDCFGLIST00000000001AB /* Build configuration list for PBXProject "SHIELD-AI" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -130,186 +141,95 @@
 				en,
 				Base,
 			);
-			mainGroup = AA000000000000000000002;
-			productRefGroup = AA000000000000000000003 /* Products */;
+			mainGroup = AAROOTGROUP000000000000AB;
+			productRefGroup = AAGROUP0000000000000000AB /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				AA000000000000000000010 /* SHIELD-AI */,
+				AATARGET000000000000000AB /* SHIELD-AI */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		AA000000000000000000032 /* Resources */ = {
+		AAPHASE000000000000000RB /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AA000016000000000000001A /* Assets.xcassets in Resources */,
+				AA000017000000000000001A /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		AA000000000000000000030 /* Sources */ = {
+		AAPHASE000000000000000SB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AA000000000000000000200 /* ShieldAIApp.swift in Sources */,
-				AA000000000000000000201 /* ContentView.swift in Sources */,
-				AA000000000000000000202 /* ScanView.swift in Sources */,
-				AA000000000000000000203 /* ScanViewModel.swift in Sources */,
-				AA000000000000000000204 /* TrackersView.swift in Sources */,
-				AA000000000000000000205 /* FilesView.swift in Sources */,
-				AA000000000000000000206 /* NetworkView.swift in Sources */,
-				AA000000000000000000207 /* NetworkViewModel.swift in Sources */,
-				AA000000000000000000208 /* PrivacyView.swift in Sources */,
-				AA000000000000000000209 /* PrivacyViewModel.swift in Sources */,
-				AA000000000000000000210 /* RFShieldView.swift in Sources */,
-				AA000000000000000000211 /* RogueTowerModels.swift in Sources */,
-				AA000000000000000000212 /* ThreatModels.swift in Sources */,
-				AA000000000000000000213 /* AIReportView.swift in Sources */,
-				AA000000000000000000214 /* Color+Extensions.swift in Sources */,
+				AA000001000000000000001A /* ShieldAIApp.swift in Sources */,
+				AA000002000000000000001A /* ContentView.swift in Sources */,
+				AA000003000000000000001A /* ScanView.swift in Sources */,
+				AA000004000000000000001A /* ScanViewModel.swift in Sources */,
+				AA000005000000000000001A /* NetworkView.swift in Sources */,
+				AA000006000000000000001A /* NetworkViewModel.swift in Sources */,
+				AA000007000000000000001A /* PrivacyView.swift in Sources */,
+				AA000008000000000000001A /* PrivacyViewModel.swift in Sources */,
+				AA000009000000000000001A /* RFShieldView.swift in Sources */,
+				AA000010000000000000001A /* RogueTowerModels.swift in Sources */,
+				AA000011000000000000001A /* ThreatModels.swift in Sources */,
+				AA000012000000000000001A /* TrackersView.swift in Sources */,
+				AA000013000000000000001A /* FilesView.swift in Sources */,
+				AA000014000000000000001A /* AIReportView.swift in Sources */,
+				AA000015000000000000001A /* Color+Extensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		AA000000000000000000020 /* Debug */ = {
+		AABLDCFG0000000000000DAB /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_ENABLE_OBJC_WEAK = YES;
-				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_COMMA = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
-				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
-				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
-				CLANG_WARN_STRICT_PROTOTYPES = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				ENABLE_TESTABILITY = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu17;
-				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
-				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
-		AA000000000000000000021 /* Release */ = {
+		AABLDCFG0000000000000RAB /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_ENABLE_OBJC_WEAK = YES;
-				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_COMMA = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
-				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
-				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
-				CLANG_WARN_STRICT_PROTOTYPES = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				COPY_PHASE_STRIP = NO;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				ENABLE_USER_SCRIPT_SANDBOXING = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu17;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
-		AA000000000000000000022 /* Debug */ = {
+		AABLDCFG0000000000001DAB /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CODE_SIGNING_ALLOWED = NO;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = NO;
 				INFOPLIST_FILE = Info.plist;
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = NO;
-				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -323,23 +243,16 @@
 			};
 			name = Debug;
 		};
-		AA000000000000000000023 /* Release */ = {
+		AABLDCFG0000000000001RAB /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				CODE_SIGNING_ALLOWED = NO;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = NO;
 				INFOPLIST_FILE = Info.plist;
-				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = NO;
-				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = UIInterfaceOrientationPortrait;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -356,25 +269,26 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		AA000000000000000000024 /* Build configuration list for PBXNativeTarget "SHIELD-AI" */ = {
+		AABLDCFGLIST00000000000AB /* Build configuration list for PBXNativeTarget "SHIELD-AI" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				AA000000000000000000022 /* Debug */,
-				AA000000000000000000023 /* Release */,
+				AABLDCFG0000000000001DAB /* Debug */,
+				AABLDCFG0000000000001RAB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		AA000000000000000000025 /* Build configuration list for PBXProject "SHIELD-AI" */ = {
+		AABLDCFGLIST00000000001AB /* Build configuration list for PBXProject "SHIELD-AI" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				AA000000000000000000020 /* Debug */,
-				AA000000000000000000021 /* Release */,
+				AABLDCFG0000000000000DAB /* Debug */,
+				AABLDCFG0000000000000RAB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
 	};
-	rootObject = AA000000000000000000001 /* Project object */;
+	rootObject = AAPROJECT000000000000000B /* Project object */;
 }
