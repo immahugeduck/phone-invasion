@@ -5,7 +5,7 @@ struct TrackersView: View {
     @State private var isBlockingEnabled: Bool = false
 
     var body: some View {
-        NavigationView {
+        NavigationStack {
             VStack {
                 if trackers.isEmpty {
                     Spacer()
